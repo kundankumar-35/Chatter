@@ -1,0 +1,6 @@
+<!-- res/drawable/bd_send.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#4CAF50" /> <!-- Green background color for sent messages -->
+    <corners android:radius="8dp" /> <!-- Rounded corners for a nicer look -->
+</shape>

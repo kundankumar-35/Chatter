@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+<!--    <Button-->
+<!--        android:id="@+id/selectAvatarButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Select Avatar"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20dp"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/avatarImageView"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_below="@id/selectAvatarButton"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20dp"/>-->
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/login_background"
+        android:ems="10"
+
+        android:hint="name"
+
+        android:inputType="text"
+        android:paddingStart="35sp"
+        android:paddingLeft="35sp" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:paddingLeft="35dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:layout_gravity="center"
+
+        android:background="@drawable/login_background"
+
+        android:inputType="text"
+        android:hint="email"
+        />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:paddingLeft="44dp"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_gravity="center"
+
+        android:hint="pass"
+        android:background="@drawable/login_background"
+        />
+
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="300dp"
+        android:layout_marginTop="40dp"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+<!--    <Button-->
+<!--        android:id="@+id/signIn"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:textSize="25sp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="signIn" />-->
+
+
+</LinearLayout>
